@@ -16,7 +16,8 @@ public class Main {
         roger.deposito(350.00);
         System.out.println("Saldo : " +  roger.saldo);
         
-        roger.saque(400);
+        roger.saque(400.00);
+        System.out.println("Saldo : " + roger.saldo);
         
     }
     

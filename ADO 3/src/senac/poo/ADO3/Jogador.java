@@ -22,12 +22,36 @@ public class Jogador {
         
     }
     
-    public void correr( int km) {
+    // Função correr do jogador
+    public void correr(int km) {
     	for(int i=1;i<=km;i++) {
-    		
+    		System.out.println("O " + nome + " está com a bola...");
     	}
-    
     }
+    
+    // Função passar do jogador
+    public void passar() {
+    	if(passe >= 20) {
+    		System.out.println("... O " + nome + " tocou para outro jogador.");
+    	}
+    	else {
+    		System.out.println("O " + nome + " perdeu a bola.");
+    	}
+    }
+    
+    // Função chutar
+    public void chutar() {
+    	if(finalização >= 80) {
+    		System.out.println("É Golllllllll");
+    		System.out.println("O " + nome + " fez o gol.");
+    	}
+    	else {
+    		System.out.println("O " + nome + " errou o chute.");
+    	}
+    }
+    
+    
+    
     
     // Função setters
     public void setNome(String nome) {

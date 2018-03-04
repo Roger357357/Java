@@ -3,23 +3,45 @@ package senac.poo.ADO3;
 public class Jogo {
 
 	public static void main(String[] args) {
-		Jogador goleiro = new Jogador("Vanderlei", 30, 1.90, 20, 60, 90);
-		Jogador lateral_direito = new Jogador("Daniel", 19, 1.70, 30, 80, 70);
-		/*Jogador lateral_esquerdo = new Jogador();
-		Jogador zaqueiro1 = new Jogador();
-		Jogador zaqueiro2 = new Jogador();
-		Jogador volante1 = new Jogador();
-		Jogador volante2 = new Jogador();
-		Jogador meia = new Jogador();
-		Jogador ponta_esquerdo = new Jogador();
-		Jogador centro_avante = new Jogador();
-		Jogador ponta_direito = new Jogador();
-		*/
+		
+		Jogador goleiro = new Jogador("Vanderlei", 30, 1.90, 20, 67, 92);
+		Jogador lateral_direito = new Jogador("Daniel", 19, 1.70, 30, 63, 70);
+		Jogador lateral_esquerdo = new Jogador("Jean", 24, 1.70, 41, 45, 74);
+		Jogador zaqueiro1 = new Jogador("Lucas", 22, 1.90, 40, 63, 80);
+		Jogador zaqueiro2 = new Jogador("David", 30, 1.90, 34, 55, 78);
+		Jogador volante1 = new Jogador("Alison", 25, 1.80, 37, 70, 85);
+		Jogador volante2 = new Jogador("Renato", 38, 1.80, 24, 93, 63);
+		Jogador meia = new Jogador("Vitor", 23, 1.85, 66, 74, 51);
+		Jogador ponta_esquerdo = new Jogador("Gabriel", 21, 1.78, 84, 79, 60);
+		Jogador centro_avante = new Jogador("Eduardo", 26, 1.73, 81, 70, 57);
+		Jogador ponta_direito = new Jogador("Bruno", 27, 1.84, 87, 83, 69);
+		
 		
 		// Função Começar a partida
 		
 	    System.out.printf("Começou a partida.\n");
-	    
+	    goleiro.correr(1);
+	    goleiro.passar();
+	    lateral_direito.correr(3);
+	    lateral_direito.passar();
+	    lateral_esquerdo.correr(2);
+	    lateral_esquerdo.passar();
+	    zaqueiro1.correr(2);
+	    zaqueiro1.passar();
+	    zaqueiro2.correr(3);
+	    zaqueiro2.passar();
+	    volante1.correr(1);
+	    volante1.passar();
+	    volante2.correr(2);
+	    volante2.passar();
+	    meia.correr(1);
+	    meia.passar();
+	    ponta_esquerdo.correr(1);
+	    ponta_esquerdo.passar();
+	    ponta_direito.correr(1);
+	    ponta_direito.passar();
+	    centro_avante.correr(1);
+	    centro_avante.chutar();
 
 	}
 

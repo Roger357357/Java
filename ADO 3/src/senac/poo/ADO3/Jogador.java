@@ -1,25 +1,19 @@
 package senac.poo.ADO3;
 
 public class Jogador {
-    public String nome;
-    public int idade;
-    public double altura;
-    public int finalização;
-    public int passe;
-    public int defesa;
-    /*Jogador(){
-    }*/
+    private String nome;
+    private int idade;
+    private int finalização;
+    private int passe;
+    private int defesa;
     
     // Construtor do Jogador
-    public Jogador(String nome,int idade,double altura,int finalização,int passe,int defesa){
+    public Jogador(String nome,int idade,int finalização,int passe,int defesa){
     	this.nome = nome;
     	this.idade = idade;
-    	this.altura = altura;
     	this.finalização = finalização;
     	this.passe = passe;
-    	this.defesa = defesa; 	
-    	
-        
+    	this.defesa = defesa; 	    
     }
     
     // Função correr do jogador
@@ -59,10 +53,7 @@ public class Jogador {
     }
     public void setIdade(int idade) {
     	this.idade = idade;
-    }
-    public void setAltura(double altura) {
-    	this.altura = altura;
-    }
+    }	 
     public void setFinalização(int finalização) {
     	this.finalização = finalização;
     }
@@ -79,9 +70,6 @@ public class Jogador {
     }
     public int getIdade() {
     	return this.idade;
-    }
-    public double getAltura() {
-    	return this.altura;
     }
     public int getFinalização() {
     	return this.finalização;

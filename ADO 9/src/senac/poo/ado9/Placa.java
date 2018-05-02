@@ -14,8 +14,13 @@ public class Placa implements Serializable{
         this.estado = estado;
         this.cor = cor;
     }
+    
+    public void observacao() {
+    	System.out.println("--------------- DETRAN ---------------");
+    	System.out.println("           Placas cadastradas\n");
+    }
     public String toString(){
-        return "Placa: "+num+" Estado: "+estado+" Cor: "+cor;
+        return "Placa: "+num+"   Estado: "+estado+"   Cor: "+cor;
     }
     // Setters
     public void setNum(int num){

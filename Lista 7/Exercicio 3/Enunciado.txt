@@ -1,0 +1,4 @@
+3. Implemente um programa Java que lê (como entrada) uma lista de nomes de clientes e as respectivas
+datas de nascimento, armazenando tais informações em um HashMap, usando como chave o nome.
+Na hora de realizar uma consulta por um nome, se for um cliente cadastrado deve ser mostrado além
+do nome dele a data de nascimento, caso contrário, uma mensagem "Cliente não encontrado".

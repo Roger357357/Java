@@ -1,0 +1,3 @@
+1. Implemente um programa Java que receba uma string e armazene cada um de seus caracteres dentro
+de um objeto da classe HashSet. Use iteradores para imprimir os caracteres presentes no conjunto
+(set) criado.

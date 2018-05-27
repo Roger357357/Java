@@ -1,0 +1,3 @@
+2. Implemente um programa Java para solicitar os dados de vários clientes e armazenar em um ArrayList
+até que seja digitado um número de ID negativo. Em seguida deve ser exibido os dados de todos os
+clientes via "sysout", com cada objeto separado por linhas.

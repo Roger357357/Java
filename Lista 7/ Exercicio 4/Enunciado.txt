@@ -1,0 +1,4 @@
+4. Implemente um método estático ordenarSelecao genérico. Esse método deve ordenar um vetor de
+objetos de qualquer tipo que sejam comparáveis usando o algoritmo de ordenação por seleção. Utilize
+um aplicativo chamado Programa para testar o método implementado, ordenando um vetor com os
+nomes dos alunos da disciplina.

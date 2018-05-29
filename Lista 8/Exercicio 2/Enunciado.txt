@@ -1,0 +1,5 @@
+Nesta questão você deve identicar as partes problemáticas do código e reescrever utilizando tratamento
+de exceções. Ou seja, devem ser identicadas todas as exceções que podem ser lançadas e,
+para cada uma, deve ser dado o tratamento adequado que, neste exercício, signica alertar o usuário
+quanto ao problema. Entretanto, nessa implementação a leitura dos valores deve ser feita, mesmo
+que para isso o usuário tenha que tentar informar várias vezes os valores na mesma execução.

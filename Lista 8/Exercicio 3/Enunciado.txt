@@ -1,0 +1,8 @@
+3. Implemente um programa que receba as coordenadas de 3 pontos como argumento na linha de
+comando, valores com tipo real, da seguinte forma (Pontos: A, B, C): Ax Ay Bx By Cx Cy. Observe
+que se 3 pontos formam um triângulo, então para o triângulo formado deve ser calculado: Perímetro
+e Área. Classique se ele é: Equilátero, Isósceles ou Escaleno. Utilize tratamento de exceções para
+capturar problemas de entrada (número insuciente de argumentos, argumentos que não formam um
+triângulo e erros de conversão (argumento(s) inválido(s)). Crie dois métodos para:
+(a) calcular o perímetro, recebendo como parâmetros os 3 lados;
+(b) calcular a área, recebendo como parâmetros os 3 lados.

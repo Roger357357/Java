@@ -1,0 +1,2 @@
+1. O código abaixo lança uma exceção (propositalmente) e interrompe a execução. Utilizando o tratamento
+de exceções, corrija a classe com o objetivo de não parar sua execução.

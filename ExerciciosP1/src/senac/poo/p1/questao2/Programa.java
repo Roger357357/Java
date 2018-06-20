@@ -16,9 +16,6 @@ public class Programa {
         cartoes.add(data3);
         
         for(CartaoWeb cartao: cartoes)
-            System.out.println(cartao);
-        
-        //for(int i = 0; i < cartoes.size(); i++)
-        //    System.out.println(cartoes.get(i));
+            System.out.println(cartao.showMessage()+"\n");
     }    
 }

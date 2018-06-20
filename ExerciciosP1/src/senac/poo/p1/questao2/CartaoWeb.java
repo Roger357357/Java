@@ -4,7 +4,7 @@ public abstract class CartaoWeb {
     
     private String destinatario;
     
-    public abstract void showMessage();
+    public abstract String showMessage();
     
     public CartaoWeb(String destino){
         this.destinatario = destino;
